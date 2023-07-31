@@ -35,12 +35,12 @@ public class Book {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Book {").append("\n\t")
-                .append("title: ").append(title).append(",\n\t")
-                .append("author: ").append(author).append(",\n\t")
-                .append("ISBN: ").append(ISBN).append(",\n\t")
-                .append("availability: ").append(availability).append("\n")
-                .append('}');
+        sb.append("Book {").append("\n\s\s")
+            .append("title: ").append(title).append(",\n\s\s")
+            .append("author: ").append(author).append(",\n\s\s")
+            .append("ISBN: ").append(ISBN).append(",\n\s\s")
+            .append("availability: ").append(availability).append("\n")
+            .append('}');
         return sb.toString();
     }
 }
